@@ -14,9 +14,9 @@ https://www.telerik.com/blogs/passing-variables-to-css-on-a-vue-component //ToTr
         'text-shadow': clockWidth/500 + 'px ' + clockWidth/500 + 'px ' + clockWidth/250 + 'px #fff'
       }"
     >{{ nameBrand }}</div>
-    <div class="twelve" :style="{ 'font-size': clockWidth/12 + 'px', 'top': clockWidth/30 + 'px' }">12</div>
+    <div class="twelve" :style="{ 'font-size': clockWidth/12 + 'px', 'top': clockWidth/40 + 'px' }">12</div>
     <div class="three" :style="{ 'font-size': clockWidth/12 + 'px', 'right': clockWidth/20 + 'px' }">3</div>
-    <div class="six" :style="{ 'font-size': clockWidth/12 + 'px', 'bottom': clockWidth/30 + 'px' }">6</div>
+    <div class="six" :style="{ 'font-size': clockWidth/12 + 'px', 'bottom': clockWidth/40 + 'px' }">6</div>
     <div class="nine" :style="{ 'font-size': clockWidth/12 + 'px', 'left': clockWidth/20 + 'px' }">9</div>
     <div
       class="clock-dial-line"
